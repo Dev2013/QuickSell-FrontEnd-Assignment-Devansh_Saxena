@@ -19,7 +19,7 @@ const App = () => {
       <Dashboard />
     </div>
   ) : (
-    console.error("Something went wrong")
+    console.error("404 Error")
   );
 };
 
