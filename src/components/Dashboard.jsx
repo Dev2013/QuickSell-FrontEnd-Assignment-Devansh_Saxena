@@ -1,8 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { BsReception4, BsPlusLg } from "react-icons/bs"; //BsReception4
+import { BsReception4, BsPlusLg } from "react-icons/bs"; 
 import "../styles/Dashboard.css";
 import Card from "../components/Card";
+import image from '../images/Quicksell.png';
 
 const Dashboard = () => {
   const { dataSelected, user } = useSelector((state) => state.dataSelectSlice);
@@ -29,8 +30,8 @@ const Dashboard = () => {
                       <>
                         <div className="image">
                           <img
-                            src="https://quicksell.co/assets/logo/logo.png"
-                            alt="QuickSell"
+                            src={image}
+                            alt="logo"
                           />
                         </div>
                       </>

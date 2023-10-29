@@ -9,6 +9,8 @@
 }
 
 .groupButton {
+    
+    justify-content: space-evenly;
     z-index: 10;
     border: 1px solid gray;
     box-shadow: 2px 2px silver;
@@ -16,7 +18,6 @@
     width: 110px;
     height: 35px;
     padding: 5px 5px;
-    justify-content: space-evenly;
 }
 
 .dropDown {

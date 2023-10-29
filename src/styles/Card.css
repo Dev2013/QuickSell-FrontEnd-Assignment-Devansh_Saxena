@@ -10,12 +10,13 @@
 }
 
 .cardHeading2 {
-    margin: 0;
-    display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
+    margin: 0;
+    display: flex;
+   
 }
 
 .image {
@@ -31,14 +32,15 @@ img {
 }
 
 .status {
+   
+    background: silver;
+    border-radius: 50%;
     position: absolute;
     justify-content: center;
     right: 0;
     bottom: 0;
     width: 10px;
     height: 10px;
-    background: silver;
-    border-radius: 50%;
 }
 
 .title {
@@ -49,17 +51,18 @@ img {
 
 .tags {
     display: flex;
+    justify-content: space-between;
+    gap: 5px;
     align-items: center;
     width: 100%;
     padding: 10px 20px;
-    justify-content: space-between;
-    gap: 5px;
 }
 
 .tag {
+   
+    border: 1px solid silver;
     color: grey;
     width: max-content;
     padding: 5px 10px;
     border-radius: 5px;
-    border: 1px solid silver;
 }
